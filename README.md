@@ -6,6 +6,13 @@ maven -> update project
 
 rode localmente como run/debug
 
+Swagger local: http://localhost:8080/swagger-ui/index.html#/
+
+usuário: admin
+senha: admin
+
+se faz necessário rodar, pelo menos 1x, no postman em authorizathion -> basic auth o usuário e a senha acima, para autenticar e conseguir fazer as requests abaixo
+
 curls de cada endpoint para importar no postman:
 
 1° cadastrarBeneficiario
@@ -58,5 +65,3 @@ curl --location --request PUT 'http://localhost:8080/api/beneficiarios/1' \
 
 6° removerBeneficiario
 curl --location --request DELETE 'http://localhost:8080/api/beneficiarios/1'
-
-Swagger local: http://localhost:8080/swagger-ui/index.html#/
